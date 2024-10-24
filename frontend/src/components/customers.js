@@ -509,11 +509,11 @@ const Customers = () => {
   </div>
   <div className="panel fady-square">
     {/* Customer Invoice Section */}
-    <h1 className="header-name">فاتورة العميل</h1>
+    <h2 className="header-name">فاتورة العميل</h2>
       <form onSubmit={handleShowFinalResult}>
         <div className="row">
           <div className="form-group">
-            <label>عدد r الصناديق الكلي</label>
+            <label>عدد الصناديق الكلي</label>
             <input
               type="number"
               value={totalBoxes}
